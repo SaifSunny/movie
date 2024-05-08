@@ -1,10 +1,9 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class MovieListingApp {
 
     // a hash map to store movies
-    private final Map<String, Movie> movieMap;
+    private static Map<String, Movie> movieMap;
 
     public MovieListingApp() {
         this.movieMap = new HashMap<>();
@@ -35,6 +34,47 @@ public class MovieListingApp {
         movieMap.put(movie8.getTitle(), movie8);
         movieMap.put(movie9.getTitle(), movie9);
         movieMap.put(movie10.getTitle(), movie10);
+    }
+
+    public static List<Movie> getAllMovies() {
+        return new ArrayList<>(movieMap.values());
+    }
+
+    // Method to search for movies by title, cast, or category
+    public static List<Movie> searchMovies(String searchTerm) {
+        List<Movie> searchResults = new ArrayList<>();
+        // Iterate over movie map and search term
+        for (Movie movie : movieMap.values()) {
+            if (movie.getTitle().toLowerCase().contains(searchTerm.toLowerCase()) ||
+                    movie.getCast().toLowerCase().contains(searchTerm.toLowerCase()) ||
+                    movie.getCategory().toLowerCase().contains(searchTerm.toLowerCase())) {
+                searchResults.add(movie);
+//                System.out.println(movie);
+            }
+        }
+
+        // Sorting search results by movie title in ascending order
+        searchResults.sort(Comparator.comparing(Movie::getTitle));
+
+        if (searchResults.isEmpty()) {
+            return new ArrayList<>();
+        }
+        return searchResults;
+    }
+
+    // Method to display details for a specific movie
+    public String displayMovieDetails(String title) {
+        Movie movie = movieMap.get(title);
+        if (movie != null) {
+            System.out.println("Movie Title: " + movie.getTitle());
+            System.out.println("Cast: " + movie.getCast());
+            System.out.println("Category: " + movie.getCategory());
+            System.out.println("Release Date: " + movie.getReleaseDate());
+            System.out.println("Budget: " + movie.getBudget());
+        } else {
+            System.out.println("Movie not found.");
+        }
+        return title;
     }
 
 

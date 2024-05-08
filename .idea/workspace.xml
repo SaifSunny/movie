@@ -7,7 +7,7 @@
     <list default="true" id="df4382a6-87b1-46ac-9bc9-66aa3f9e66b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MovieListingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieListingApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,6 +40,10 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.MovieListingAppTest.displayMovieDetails.executor": "Run",
+    "JUnit.MovieListingAppTest.executor": "Run",
+    "JUnit.MovieListingAppTest.getAllMovies.executor": "Run",
+    "JUnit.MovieListingAppTest.searchMovies.executor": "Run",
     "JUnit.UserRegistrationTest.executor": "Run",
     "JUnit.UserRegistrationTest.testUserRegistrationWithEmail.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -71,20 +75,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieListingAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie listing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
+      <option name="MAIN_CLASS_NAME" value="MovieListingAppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.testUserRegistrationWithEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieListingAppTest.displayMovieDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie listing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserRegistrationTest" />
-      <option name="METHOD_NAME" value="testUserRegistrationWithEmail" />
+      <option name="MAIN_CLASS_NAME" value="MovieListingAppTest" />
+      <option name="METHOD_NAME" value="displayMovieDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieListingAppTest.getAllMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movie listing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MovieListingAppTest" />
+      <option name="METHOD_NAME" value="getAllMovies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieListingAppTest.searchMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movie listing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MovieListingAppTest" />
+      <option name="METHOD_NAME" value="searchMovies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,8 +117,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UserRegistrationTest.testUserRegistrationWithEmail" />
-        <item itemvalue="JUnit.UserRegistrationTest" />
+        <item itemvalue="JUnit.MovieListingAppTest.searchMovies" />
+        <item itemvalue="JUnit.MovieListingAppTest.displayMovieDetails" />
+        <item itemvalue="JUnit.MovieListingAppTest" />
+        <item itemvalue="JUnit.MovieListingAppTest.getAllMovies" />
       </list>
     </recent_temporary>
   </component>
