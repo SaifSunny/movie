@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4382a6-87b1-46ac-9bc9-66aa3f9e66b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserRegistration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.UserRegistrationTest.executor": "Run",
     "JUnit.UserRegistrationTest.testUserRegistrationWithEmail.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -61,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest">
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.testUserRegistrationWithEmail">
     <configuration name="UserRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie listing" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserRegistrationTest" />
         <item itemvalue="JUnit.UserRegistrationTest.testUserRegistrationWithEmail" />
+        <item itemvalue="JUnit.UserRegistrationTest" />
       </list>
     </recent_temporary>
   </component>
