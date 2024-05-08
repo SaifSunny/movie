@@ -36,7 +36,8 @@ public class MovieListingApp {
         movieMap.put(movie10.getTitle(), movie10);
     }
 
-    public static List<Movie> getAllMovies() {
+
+    public List<Movie> getAllMovies() {
         return new ArrayList<>(movieMap.values());
     }
 
@@ -63,7 +64,7 @@ public class MovieListingApp {
     }
 
     // Method to display details for a specific movie
-    public String displayMovieDetails(String title) {
+    public void displayMovieDetails(String title) {
         Movie movie = movieMap.get(title);
         if (movie != null) {
             System.out.println("Movie Title: " + movie.getTitle());
@@ -74,7 +75,6 @@ public class MovieListingApp {
         } else {
             System.out.println("Movie not found.");
         }
-        return title;
     }
 
 
