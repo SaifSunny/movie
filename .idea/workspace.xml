@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df4382a6-87b1-46ac-9bc9-66aa3f9e66b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FavoriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FavoriteTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="df4382a6-87b1-46ac-9bc9-66aa3f9e66b3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +68,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FavoriteTest.getMovieDetails">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="movie listing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FavoriteTest.addFavorite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie listing" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,23 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteTest.testShowFavoriteMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movie listing" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FavoriteTest" />
-      <option name="METHOD_NAME" value="testShowFavoriteMovies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FavoriteTest.getMovieDetails" />
         <item itemvalue="JUnit.FavoriteTest.showFavoriteMovies" />
         <item itemvalue="JUnit.FavoriteTest.removeFavorite" />
         <item itemvalue="JUnit.FavoriteTest.addFavorite" />
-        <item itemvalue="JUnit.FavoriteTest.testShowFavoriteMovies" />
       </list>
     </recent_temporary>
   </component>

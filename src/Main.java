@@ -26,22 +26,32 @@ public class Main {
                     System.out.println("Enter Movie Title: ");
                     String x = scanner.nextLine();
                     fav.getMovieDetails(x);
+                    System.out.println();
+                    System.out.println();
                     break;
                 case 3:
                     System.out.println("Enter Movie Title: ");
                     String m = scanner.nextLine();
                     fav.addFavorite(m);
+                    System.out.println();
+                    System.out.println();
+
                     break;
                 case 4:
                     System.out.println("Enter Movie Title: ");
                     String n = scanner.nextLine();
                     fav.removeFavorite(n);
+                    System.out.println();
+                    System.out.println();
+
                     break;
                 case 5:
                     System.out.println("Going back to the main menu...");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
+                    System.out.println();
+
             }
         } while (choice != 5);
 
@@ -86,12 +96,17 @@ public class Main {
                         }
                         System.out.println();
                     }
+                    System.out.println();
+                    System.out.println();
+
                     break;
                 case 3:
                     System.out.println("Enter Movie Title: ");
                     String n = scanner.nextLine();
                     movieList.displayMovieDetails(n);
                     System.out.println();
+                    System.out.println();
+
                     break;
                 case 4:
                     favorite();
@@ -101,6 +116,8 @@ public class Main {
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
+                    System.out.println();
+
             }
 
         } while (choice != 0);
