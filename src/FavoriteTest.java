@@ -49,10 +49,17 @@ class FavoriteTest {
     @Test
     void showFavoriteMovies() {
 
+        assertEquals("", outputStreamCaptor.toString()); //check for empty list
+
+        favorite.addFavorite("The Shawshank Redemption");
+        favorite.addFavorite("The Godfather");
+
+        // Act
         favorite.showFavoriteMovies();
 
         // Assert
-        assertTrue(outputStreamCaptor.toString().contains("The Matrix"));
+        assertTrue(outputStreamCaptor.toString().contains("The Shawshank Redemption"));
+        assertTrue(outputStreamCaptor.toString().contains("The Godfather"));
     }
 
     @Test
