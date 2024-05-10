@@ -17,14 +17,16 @@ class FavoriteTest {
 
     @Test
     void addFavorite() {
-        favorite.addFavorite("father");
+        favorite.addFavorite("The Shawshank Redemption");
+        favorite.addFavorite("The Godfather");
 
         // Act
         List<Movie> favoriteMovies = favorite.getFavoriteMovies();
 
         // Assert
-        assertEquals(1, favoriteMovies.size());
-        assertTrue(favoriteMovies.stream().anyMatch(movie -> movie.getTitle().equals("father"))); // should fail
+        assertEquals(2, favoriteMovies.size());
+        assertTrue(favoriteMovies.stream().anyMatch(movie -> movie.getTitle().equals("The Shawshank Redemption")));
+        assertTrue(favoriteMovies.stream().anyMatch(movie -> movie.getTitle().equals("The Godfather")));
     }
 
     @Test
