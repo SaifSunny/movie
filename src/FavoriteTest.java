@@ -33,10 +33,11 @@ class FavoriteTest {
         //add movie
         favorite.addFavorite("The Shawshank Redemption");
 
-        favorite.removeFavorite("The Matrix"); // should fail
+        favorite.removeFavorite("The Shawshank Redemption"); // should fail
         List<Movie> favoriteMovies = favorite.getFavoriteMovies();
 
         // Assert
+        assertEquals(0, favoriteMovies.size());
         assertTrue(favoriteMovies.isEmpty());
 
     }
