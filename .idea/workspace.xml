@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4382a6-87b1-46ac-9bc9-66aa3f9e66b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Favorite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FavoriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FavoriteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,31 +34,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.FavoriteTest.addFavorite.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FavoriteTest.testShowFavoriteMovies.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MovieListingAppTest.displayMovieDetails.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MovieListingAppTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MovieListingAppTest.getAllMovies.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MovieListingAppTest.searchMovies.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRegistrationTest.testUserRegistrationWithEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/saifs/IdeaProjects/movie listing/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.FavoriteTest.addFavorite.executor": "Run",
+    "JUnit.FavoriteTest.removeFavorite.executor": "Run",
+    "JUnit.FavoriteTest.testShowFavoriteMovies.executor": "Run",
+    "JUnit.MovieListingAppTest.displayMovieDetails.executor": "Run",
+    "JUnit.MovieListingAppTest.executor": "Run",
+    "JUnit.MovieListingAppTest.getAllMovies.executor": "Run",
+    "JUnit.MovieListingAppTest.searchMovies.executor": "Run",
+    "JUnit.UserRegistrationTest.executor": "Run",
+    "JUnit.UserRegistrationTest.testUserRegistrationWithEmail.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/saifs/IdeaProjects/movie listing/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -69,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FavoriteTest.addFavorite">
+  <component name="RunManager" selected="JUnit.FavoriteTest.removeFavorite">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="movie listing" />
@@ -87,21 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FavoriteTest.testShowFavoriteMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FavoriteTest.removeFavorite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie listing" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FavoriteTest" />
-      <option name="METHOD_NAME" value="testShowFavoriteMovies" />
+      <option name="METHOD_NAME" value="removeFavorite" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieListingAppTest.displayMovieDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FavoriteTest.testShowFavoriteMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie listing" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MovieListingAppTest" />
-      <option name="METHOD_NAME" value="displayMovieDetails" />
+      <option name="MAIN_CLASS_NAME" value="FavoriteTest" />
+      <option name="METHOD_NAME" value="testShowFavoriteMovies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FavoriteTest.removeFavorite" />
         <item itemvalue="JUnit.FavoriteTest.addFavorite" />
         <item itemvalue="JUnit.FavoriteTest.testShowFavoriteMovies" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MovieListingAppTest.searchMovies" />
-        <item itemvalue="JUnit.MovieListingAppTest.displayMovieDetails" />
       </list>
     </recent_temporary>
   </component>

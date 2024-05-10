@@ -20,7 +20,6 @@ class FavoriteTest {
         favorite.addFavorite("The Shawshank Redemption");
         favorite.addFavorite("The Godfather");
 
-        // Act
         List<Movie> favoriteMovies = favorite.getFavoriteMovies();
 
         // Assert
@@ -31,6 +30,15 @@ class FavoriteTest {
 
     @Test
     void removeFavorite() {
+        //add movie
+        favorite.addFavorite("The Shawshank Redemption");
+
+        favorite.removeFavorite("The Matrix"); // should fail
+        List<Movie> favoriteMovies = favorite.getFavoriteMovies();
+
+        // Assert
+        assertTrue(favoriteMovies.isEmpty());
+
     }
 
     @Test
