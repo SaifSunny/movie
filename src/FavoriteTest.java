@@ -54,7 +54,6 @@ class FavoriteTest {
         favorite.addFavorite("The Shawshank Redemption");
         favorite.addFavorite("The Godfather");
 
-        // Act
         favorite.showFavoriteMovies();
 
         // Assert
@@ -64,5 +63,14 @@ class FavoriteTest {
 
     @Test
     void getMovieDetails() {
+        favorite.addFavorite("The Shawshank Redemption");
+        favorite.getMovieDetails("The Shawshank Redemption");
+
+        // Assert
+        assertTrue(outputStreamCaptor.toString().contains("Movie Title: The Shawshank Redemption"));
+        assertTrue(outputStreamCaptor.toString().contains("Cast: Tim Robbins, Morgan Freeman"));
+        assertTrue(outputStreamCaptor.toString().contains("Category: Drama"));
+        assertTrue(outputStreamCaptor.toString().contains("Release Date: 1994-09-10"));
+        assertTrue(outputStreamCaptor.toString().contains("Budget: $25 million"));
     }
 }
