@@ -25,7 +25,7 @@ public class Main {
                 case 2:
                     System.out.println("Enter Movie Title: ");
                     String x = scanner.nextLine();
-                    fav.getFavoriteMovie(x);
+                    fav.getMovieDetails(x);
                     break;
                 case 3:
                     System.out.println("Enter Movie Title: ");

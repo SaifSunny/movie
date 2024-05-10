@@ -51,7 +51,7 @@ public class Favorite extends MovieListingApp{
     }
 
     // Method to get details of a specific movie from favorites
-    public void getFavoriteMovie(String movieTitle) {
+    public void getMovieDetails(String movieTitle) {
         Movie movie = findMovie(moviesList, movieTitle);
         if (movie != null) {
             System.out.println("Movie Title: " + movie.getTitle());
@@ -62,6 +62,17 @@ public class Favorite extends MovieListingApp{
         } else {
             System.out.println("Movie \"" + movieTitle + "\" not found in favorites.");
         }
+    }
+
+    public List<Movie> getFavoriteMovies() {
+        List<Movie> favoriteMoviesDetails = new ArrayList<>();
+        for (String movieTitle : favoriteMovies) {
+            Movie movie = findMovie(moviesList, movieTitle);
+            if (movie != null) {
+                favoriteMoviesDetails.add(movie);
+            }
+        }
+        return favoriteMoviesDetails;
     }
 
     // find a movie by title
