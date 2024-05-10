@@ -1,6 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -8,11 +10,13 @@ class FavoriteTest {
 
     private Favorite favorite;
     private MovieListingApp movieListingApp;
+    private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
     @BeforeEach
     void setUp() {
         favorite = new Favorite();
         movieListingApp = new MovieListingApp();
+        System.setOut(new PrintStream(outputStreamCaptor));
     }
 
     @Test
@@ -44,9 +48,14 @@ class FavoriteTest {
 
     @Test
     void showFavoriteMovies() {
+
+        favorite.showFavoriteMovies();
+
+        // Assert
+        assertTrue(outputStreamCaptor.toString().contains("The Matrix"));
     }
 
     @Test
-    void getFavoriteMovie() {
+    void getMovieDetails() {
     }
 }

@@ -40,10 +40,6 @@ public class Favorite extends MovieListingApp{
                 Movie movie = findMovie(moviesList, movieTitle);
                 if (movie != null) {
                     System.out.println("Movie Title: " + movie.getTitle());
-//                    System.out.println("Cast: " + movie.getCast());
-//                    System.out.println("Category: " + movie.getCategory());
-//                    System.out.println("Release Date: " + movie.getReleaseDate());
-//                    System.out.println("Budget: " + movie.getBudget());
                     System.out.println();
                 }
             }

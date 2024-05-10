@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4382a6-87b1-46ac-9bc9-66aa3f9e66b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Favorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Favorite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FavoriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FavoriteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +42,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.FavoriteTest.addFavorite.executor": "Run",
     "JUnit.FavoriteTest.removeFavorite.executor": "Run",
+    "JUnit.FavoriteTest.showFavoriteMovies.executor": "Run",
     "JUnit.FavoriteTest.testShowFavoriteMovies.executor": "Run",
     "JUnit.MovieListingAppTest.displayMovieDetails.executor": "Run",
     "JUnit.MovieListingAppTest.executor": "Run",
@@ -68,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FavoriteTest.removeFavorite">
+  <component name="RunManager" selected="JUnit.FavoriteTest.showFavoriteMovies">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="movie listing" />
@@ -96,6 +99,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FavoriteTest.showFavoriteMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movie listing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FavoriteTest" />
+      <option name="METHOD_NAME" value="showFavoriteMovies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FavoriteTest.testShowFavoriteMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movie listing" />
       <option name="PACKAGE_NAME" value="" />
@@ -106,23 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieListingAppTest.searchMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movie listing" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MovieListingAppTest" />
-      <option name="METHOD_NAME" value="searchMovies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FavoriteTest.showFavoriteMovies" />
         <item itemvalue="JUnit.FavoriteTest.removeFavorite" />
         <item itemvalue="JUnit.FavoriteTest.addFavorite" />
         <item itemvalue="JUnit.FavoriteTest.testShowFavoriteMovies" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.MovieListingAppTest.searchMovies" />
       </list>
     </recent_temporary>
   </component>
